@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather Insight_Daily Weather</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/3.16/esri/css/esri.css">
+    <style>
+      html, body,
+        #map {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        }
+        #BasemapToggle {
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          z-index: 20;
+          }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script src="https://js.arcgis.com/3.16/"></script>
+    <script src="js/myarcgis.js"></script>
+    <div id="map" class="map">
+      <div id="BasemapToggle"></div>
+    </div>
+  </body>
+</html>
